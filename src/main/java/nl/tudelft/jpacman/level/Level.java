@@ -275,6 +275,11 @@ public class Level {
         }
     }
 
+    // adding this getter to test add and remove observers
+    public Set<LevelObserver> getObservers(){
+        return observers;
+    }
+
     /**
      * Returns <code>true</code> iff at least one of the players in this level
      * is alive.
